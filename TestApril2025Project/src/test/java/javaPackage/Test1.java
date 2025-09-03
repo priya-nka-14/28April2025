@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test1 {
-	
+	 
 	@Test
 	
 	public void a() {
@@ -15,6 +15,7 @@ public class Test1 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
+		System.out.println("Hello child branch");
 		
 	}
 
