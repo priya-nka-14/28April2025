@@ -15,7 +15,6 @@ public class Test1 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
-		System.out.println("Hello Master Branch");
 		
 		
 	}
