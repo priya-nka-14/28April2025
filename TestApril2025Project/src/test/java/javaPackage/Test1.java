@@ -17,6 +17,7 @@ public class Test1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("1234");
 		driver.close();
 
 		
